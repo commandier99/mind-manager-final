@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "884624927850",
+    "project_id": "mind-manager-final",
+    "storage_bucket": "mind-manager-final.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884624927850:android:e548efc962b03982942e13",
+        "android_client_info": {
+          "package_name": "com.example.mind_manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI_qXvHVzuO5nWGozuerZuXz5lBgZg4u0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
