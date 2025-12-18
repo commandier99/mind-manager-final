@@ -12,7 +12,7 @@ class TopBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return AppBar(
       title: Text(title),
-      backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+      backgroundColor: Colors.blue,
       // The hamburger icon (drawer icon) is automatically added by Flutter
       // when a Drawer is present in the Scaffold and the AppBar is part of it.
       // You don't need to explicitly add an IconButton here for the drawer.

@@ -11,12 +11,11 @@ import 'package:mind_manager/main.dart';
 
 void main() {
   testWidgets('App builds and shows title', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    // Build the PlaceholderScreen inside a MaterialApp so AppBar and Scaffold are available.
-    await tester.pumpWidget(const MaterialApp(home: PlaceholderScreen()));
+    // Build the app and trigger a frame.
+    await tester.pumpWidget(const MindManagerApp());
     await tester.pumpAndSettle();
 
-    // Verify the app bar title is present.
-    expect(find.text('Welcome to Mind-Manager!'), findsOneWidget);
+    // Verify the home screen title is present (HomeScreen starts with 'Home').
+    expect(find.text('Home'), findsWidgets);
   });
 }
